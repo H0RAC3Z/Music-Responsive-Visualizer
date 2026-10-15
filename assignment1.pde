@@ -94,7 +94,7 @@ void draw() {
   orbPhase += 0.025 + smoothLevel * 0.045; // animation phase
   if (frameCount % 3 == 0) recordHistory(); // record into history every 3 frames
   drawCityline(); // small buildings as decoration
-  drawOrb(); // 
+  drawOrb();
   drawHistory();
   drawHeader();
   drawErrorToast();
